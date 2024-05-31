@@ -10,7 +10,7 @@ web_uri = os.getenv('com_camenduru_web_uri')
 web_token = os.getenv('com_camenduru_web_token')
 
 sys.path.insert(1, os.path.join(sys.path[0], 'lvdm'))
-image2video = Image2Video('./tmp/', resolution='320_512')
+image2video = Image2Video('/tmp/', resolution='320_512')
 
 def generate(input):
     values = input["input"]
@@ -25,7 +25,7 @@ def generate(input):
     i2v_input_image2 = values['i2v_input_image2']
     i2v_input_image2 = np.array(load_image(i2v_input_image2))
     i2v_output_video = image2video.get_image(i2v_input_image1, i2v_input_text, i2v_steps, i2v_cfg_scale, i2v_eta, i2v_motion, i2v_seed, i2v_input_image2)
-
+    
     result = i2v_output_video
 
     response = None

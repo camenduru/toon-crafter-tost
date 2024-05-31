@@ -33,14 +33,14 @@ with gr.Blocks(css=".gradio-container {max-width: 544px !important}", analytics_
           textbox = gr.Textbox(show_label=False, 
           value="""
                 {
-                    "i2v_input_image1":"https://huggingface.co/camenduru/assets/resolve/main/034133.jpg", 
+                    "i2v_input_image1":"https://i.ibb.co/rk2kPHQ/030657.jpg", 
                     "i2v_input_text":"an anime scene", 
                     "i2v_steps":50, 
                     "i2v_cfg_scale":7.5, 
                     "i2v_eta":1, 
                     "i2v_motion":10, 
                     "i2v_seed":789, 
-                    "i2v_input_image2":"https://huggingface.co/camenduru/assets/resolve/main/034147.jpg"
+                    "i2v_input_image2":"https://i.ibb.co/cNDPY5v/030634.jpg"
                 }
           """)
           button = gr.Button()
