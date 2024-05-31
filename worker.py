@@ -6,7 +6,7 @@ import gradio as gr
 import numpy as np
 
 sys.path.insert(1, os.path.join(sys.path[0], 'lvdm'))
-image2video = Image2Video('./tmp/', resolution='320_512')
+image2video = Image2Video('/tmp/', resolution='320_512')
 
 @torch.inference_mode()
 def generate(command):
