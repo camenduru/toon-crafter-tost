@@ -36,7 +36,8 @@ def generate(input):
         del values['source_channel']
         job_id = values['job_id']
         del values['job_id']
-        files = {f"video.mp4": open(result, "rb").read()}
+        default_filename = os.path.basename(result)
+        files = {default_filename: open(result, "rb").read()}
         payload = {"content": f"{json.dumps(values)} <@{source_id}>"}
         response = requests.post(
             f"https://discord.com/api/v9/channels/{source_channel}/messages",
