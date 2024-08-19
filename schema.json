@@ -1,60 +1,60 @@
 {
-    "$schema": "http://json-schema.org/draft-04/hyper-schema#",
-    "type": "object",
-    "properties": {
-      "readme": {
-        "type": "string",
-        "title": "ToonCrafter: Generative Cartoon Interpolation",
-        "author": "ToonCrafter Team",
-        "code": "https://github.com/ToonCrafter/ToonCrafter",
-        "jupyter": "https://github.com/camenduru/ToonCrafter-jupyter",
-        "post": "https://x.com/camenduru/status/1796340609625870458",
-        "tags": [
-          "Image to Video"
-        ],
-        "widget": "readme"
-      },
-      "i2v_input_image1": {
-        "type": "string",
-        "description": "Input Image 1 URL",
-        "widget": "textarea"
-      },
-      "i2v_input_image2": {
-        "type": "string",
-        "description": "Input Image 2 URL",
-        "widget": "textarea"
-      },
-      "i2v_input_text": {
-        "type": "string",
-        "description": "Prompt",
-        "widget": "textarea"
-      },
-      "i2v_steps": {
-        "type": "integer",
-        "description": "Steps"
-      },
-      "i2v_cfg_scale": {
-        "type": "number",
-        "description": "CFG Scale"
-      },
-      "i2v_eta": {
-        "type": "integer",
-        "description": "ETA"
-      },
-      "i2v_motion": {
-        "type": "integer",
-        "description": "FPS"
-      },
-      "i2v_seed": {
-        "type": "integer",
-        "description": "Seed"
-      }
-      
+  "$schema": "http://json-schema.org/draft-04/hyper-schema#",
+  "type": "object",
+  "properties": {
+    "readme": {
+      "type": "string",
+      "title": "ToonCrafter: Generative Cartoon Interpolation",
+      "author": "ToonCrafter Team",
+      "code": "https://github.com/ToonCrafter/ToonCrafter",
+      "jupyter": "https://github.com/camenduru/ToonCrafter-jupyter",
+      "post": "https://x.com/camenduru/status/1796340609625870458",
+      "api": "https://github.com/camenduru/tost-api-examples/blob/main/v1/toon-crafter.ipynb",
+      "tags": [
+        "Image to Video"
+      ],
+      "widget": "readme"
     },
-    "buttons": [
-      {
-        "id": "enter",
-        "label": "🥪 Enter"
-      }
-    ]
-  }
+    "i2v_input_image1": {
+      "type": "string",
+      "description": "Input Image 1 URL",
+      "widget": "textarea"
+    },
+    "i2v_input_image2": {
+      "type": "string",
+      "description": "Input Image 2 URL",
+      "widget": "textarea"
+    },
+    "i2v_input_text": {
+      "type": "string",
+      "description": "Prompt",
+      "widget": "textarea"
+    },
+    "i2v_steps": {
+      "type": "integer",
+      "description": "Steps"
+    },
+    "i2v_cfg_scale": {
+      "type": "number",
+      "description": "CFG Scale"
+    },
+    "i2v_eta": {
+      "type": "integer",
+      "description": "ETA"
+    },
+    "i2v_motion": {
+      "type": "integer",
+      "description": "FPS"
+    },
+    "i2v_seed": {
+      "type": "integer",
+      "description": "Seed"
+    }
+  },
+  "buttons": [
+    {
+      "id": "enter",
+      "label": "🥪 Enter"
+    }
+  ]
+}
