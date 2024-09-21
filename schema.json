@@ -49,6 +49,14 @@
     "i2v_seed": {
       "type": "integer",
       "description": "Seed"
+    },
+    "example": {
+      "type": "string",
+      "image1": "https://files.catbox.moe/ianmxz.webp",
+      "image2": "https://files.catbox.moe/benh0n.webp",
+      "image3": "https://fakeimg.pl/512x320/282828/eae0d0/?text=<input%20output>#.png",
+      "image4": "https://files.catbox.moe/rhr10u.gif",
+      "widget": "example"
     }
   },
   "buttons": [
